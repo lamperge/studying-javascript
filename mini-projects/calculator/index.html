@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body {
+            background-color: black;
+            color: white;
+            text-align: center;
+            font-family: Arial, Helvetica, sans-serif;
+            text-align: center;
+            margin-top: 150px;
+        }
+
+        div {
+            margin: 0px;
+            display: inline-block;
+            border-radius: 3px;
+        }
+
+        #keys {
+            margin: 10px;
+        }
+
+        .key {
+            background-color: burlywood;
+            height: 40px;
+            width: 40px;
+            color: black;
+            font-weight: 700;
+            margin: 2px;
+            display: inline-block;
+            line-height: 30px;
+        }
+
+        .key:active {
+            background-color: white;
+        }
+
+        .result {
+            background-color: white;
+            width: 178px;
+            height: 40px;
+            color: black;
+            font-weight: 700;
+            line-height:40px;
+            text-align: left;
+            padding: 5px;
+        }
+
+    </style>
+</head>
+<body>
+    <h1>Calculator</h1>
+    <div class="result">3542</div><br>
+        <div id="keys">    
+    <div class="key key-1">1</div>
+    <div class="key key-2">2</div>
+    <div class="key key-3">3</div>
+    <div class="key key-+">+</div> <br>
+    <div class="key key-4">4</div>
+    <div class="key key-5">5</div>
+    <div class="key key-6">6</div> 
+    <div class="key key--">-</div> <br>
+    <div class="key key-7">7</div> 
+    <div class="key key-8">8</div>
+    <div class="key key-9">9</div>
+    <div class="key key-x">x</div>  <br>
+    <div class="key key-.">.</div>
+    <div class="key key-0">0</div>
+    <div class="key key-/">/</div>
+    <div class="key key-=">=</div>
+        </div>
+</body>
+<script>
+    let blank = document.querySelector('.result')
+    const getting1 = document.querySelector ('key-1')
+    blank.innerHTML = `res`
+   //const n1 = 
+   //const n2 = 
+   //const sign = 
+   //const res = n1 sign n2
+</script>
+</html>

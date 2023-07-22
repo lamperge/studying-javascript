@@ -1,0 +1,8 @@
+small projects in a same host 
+
+list of features:
+* infinity row
+* spa  
+
+list of projects: 
+* calculator
