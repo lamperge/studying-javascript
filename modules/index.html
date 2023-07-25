@@ -8,14 +8,30 @@
         body {
             background-color: black;
             color: white;
+            text-align: center;
+            margin-top: 150px;
         }
     </style>
 </head>
 <body>
-    <h1 id="test">Hello Mars</h1>
+    <input type="text" class="inpt1">
+    <input type="text" class="inpt2">
+    <input type="button" value="GO" class="go" onclick="calc()">
+    <div class="res">1</div>
 </body>
 <script>
-    var titulo = document.getElementById("test")
-    titulo.innerHTML = "CARAIO"
+    //dom
+
+    //function
+    function calc(){
+    var p1 = document.querySelector('.inpt1');
+    var p2 = document.querySelector('.inpt2');
+    var res = document.querySelector ('.res');
+    var btn = document.querySelector ('.go');
+    var v1 = Number (p1.value); 
+    var v2 = Number (p2.value);
+    s = v1 + v2;
+        res.innerHTML = s;
+    }
 </script>
 </html>
